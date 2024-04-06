@@ -2,6 +2,9 @@
   "name": "testprobun",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "dev": "bun run ."
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },

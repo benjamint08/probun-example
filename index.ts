@@ -6,7 +6,7 @@ const server = new ProBun({
     port: 3000,
     routes: "routes",
     logger: true,
-    mongoUri: Bun.env.MONGO_URI || "mongodb://localhost:27017/",
+    // mongoUri: Bun.env.MONGO_URI || "mongodb://localhost:27017/", (Optional)
 });
 
 server.definePreMiddleware(powered);
