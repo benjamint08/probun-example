@@ -1,7 +1,7 @@
 # ProBun Example Project
 
 ## Stupidly easy.
-<img src="snippet.png" width="300">
+<img src="snippet.png" width="500">
 
 ## Get Started
 
