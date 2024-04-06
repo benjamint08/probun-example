@@ -1,4 +1,4 @@
-# ProBun Example Project v0.1.4
+# ProBun Example Project v0.1.5
 
 **MongoDB** is now supported! Check out routes/user/[id].ts for usage.
 

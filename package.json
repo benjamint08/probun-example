@@ -12,6 +12,6 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "probun": "^0.1.4"
+    "probun": "^0.1.5"
   }
 }
