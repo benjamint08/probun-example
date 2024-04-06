@@ -8,6 +8,6 @@ export async function GET(req: Request): Promise<Response> {
         await Mongo.insert("test", "time", { time });
         return Success("Inserted time into database.");
     } catch (error: any) {
-        return Failure(error);
+        return Failure(error.toString());
     }
 }

@@ -8,6 +8,6 @@ export async function GET(req: Request): Promise<Response> {
         await pg.query("INSERT INTO time (time) VALUES ($1)", [time]);
         return Success("Inserted time into database.");
     } catch (error: any) {
-        return Failure(error);
+        return Failure(error.toString());
     }
 }
