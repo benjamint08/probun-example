@@ -1,4 +1,6 @@
-# ProBun Example Project v0.1.1
+# ProBun Example Project v0.1.2
+
+**MongoDB** is now supported! Check out routes/user/[id].ts for usage.
 
 GET, POST, PUT, DELETE and PATCH requests are supported. View how to use them in routes/methods.ts.
 
