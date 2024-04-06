@@ -1,4 +1,4 @@
-# ProBun Example Project v0.1.6
+# ProBun Example Project v0.1.7
 
 **MongoDB** and **PostgreSQL** are supported out of the box. View the [ProBun Docs](https://probun.p3pr.co) for more information.
 You can also view their respective folders in the routes folder for examples. (mongodb, postgres)
