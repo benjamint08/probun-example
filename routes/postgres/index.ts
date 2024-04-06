@@ -7,7 +7,7 @@ export async function GET(req: Request): Promise<Response> {
         const time = new Date();
         await pg.query("INSERT INTO time (time) VALUES ($1)", [time]);
         return Success("Inserted time into database.");
-    } catch (error) {
-        return Failure("Error inserting time into database... maybe the table doesn't exist? Error: " + error);
+    } catch (error: any) {
+        return Failure(error);
     }
 }
