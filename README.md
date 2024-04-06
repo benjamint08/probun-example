@@ -1,4 +1,6 @@
-# ProBun Example Project
+# ProBun Example Project v0.1.0
+
+GET, POST, PUT, DELETE and PATCH requests are supported. View how to use them in routes/methods.ts.
 
 ## Stupidly easy.
 <img src="code.png" width="500">
