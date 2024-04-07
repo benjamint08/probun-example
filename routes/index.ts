@@ -2,7 +2,7 @@
 import { Failure, SendJSON, Success, query } from "probun";
 
 export async function GET(req: Request): Promise<Response> {
-    const name = await query(req, "name");
+    const name = await query("name", req);
 
     // Using the helper function "Success" to return a successful response with a message "Everything is working!
     return SendJSON({
