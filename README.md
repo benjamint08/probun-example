@@ -1,9 +1,9 @@
-# ProBun Example Project v0.1.19
+# ProBun Example Project v0.1.22
 
 **MongoDB** and **PostgreSQL** are supported out of the box. View the [Database](https://probun.dev/docs/databases.html) page for more information.
 You can also view their respective folders in the routes folder for examples. (mongodb, postgres)
 
-GET, POST, PUT, DELETE and PATCH requests are supported. View how to use them in routes/methods.ts.
+GET, POST, PUT, DELETE, PATCH and OPTIONS requests are supported. View how to use them in routes/methods.ts.
 
 ## Stupidly easy.
 <img src="code.png" width="500">
